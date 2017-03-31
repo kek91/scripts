@@ -3,7 +3,9 @@
 #              We used it for troubleshooting a strange problem which lead us to
 #              believe it could be a common windows update for the affected computers.
 #
-# Usage:       Enter hostnames in $hosts array and run script
+# Usage:       1) Enter hostnames in $hosts array
+#              2) Change wanted timeline date in the Where-Object { } clause
+#              3) Run script
 #
 # Note:        - Requires local administrator access on remote computer (i.e. domain admin)
 #              - Threads aren't implemented so it currently queries the computers one by one.
