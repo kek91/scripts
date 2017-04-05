@@ -1,0 +1,3 @@
+user INSERTUSERNAME INSERTPASSWORD
+put "\\path\to\file.pdf" "/remote/path/on/ftpserver/file.pdf"
+bye

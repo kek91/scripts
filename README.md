@@ -8,12 +8,16 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 
 **Batch**
 
-- [Robocopy hourly incremental backup](batch/Hourly_Robocopy_Backup.bat)
+- [Robocopy hourly incremental backup](batch/HourlyRobocopyBackup/Hourly_Robocopy_Backup.bat)
+- [Copy to FTP server](batch/CopyToFTP/CopyToFTP.bat)
 
 
 **Powershell**
 
-- [List Windows Updates remote](powershell/ListUpdates.ps1)
+- [List Windows Updates remote](powershell/ListUpdates/ListUpdates.ps1)
+- [Interactive Admin Tools](powershell/InteractiveAdminTools/InteractiveAdminTools.ps1)
+
+
 
 
 
