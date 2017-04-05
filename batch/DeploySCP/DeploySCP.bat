@@ -1,9 +1,11 @@
 :: This script can be used to automate deployments to remote server.
 :: Please note it requires pscp.exe as this is not included in Windows.
 :: Path to pscp.exe is currently hardcoded in the functions.
+:: Author: Kim Eirik Kvassheim
+:: Website: https://github.com/kek91/scripts
 
 @echo off
-:: Uncomment line below (chcp 65001) if your paths use unicdoe characters
+:: Uncomment line below (chcp 65001) if your paths use unicode characters
 ::chcp 65001
 title DeploySCP
 cls
