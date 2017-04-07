@@ -11,6 +11,7 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 - [Robocopy hourly incremental backup](batch/HourlyRobocopyBackup/Hourly_Robocopy_Backup.bat)
 - [Copy to FTP server](batch/CopyToFTP/CopyToFTP.bat)
 - [Deployment script using SCP - complete with GoTo spaghetti and everything](batch/DeploySCP/DeploySCP.bat)
+- [Download zip file from FTP server and unzip to destination](batch/DownloadFTPandUnzip/DownloadFTPandUnzip.bat)
 
 
 **Powershell**
