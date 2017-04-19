@@ -8,18 +8,20 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 
 **Batch**
 
-- [Robocopy hourly incremental backup](batch/HourlyRobocopyBackup/Hourly_Robocopy_Backup.bat)
-- [Copy to FTP server](batch/CopyToFTP/CopyToFTP.bat)
-- [Deployment script using SCP - complete with GoTo spaghetti and everything](batch/DeploySCP/DeploySCP.bat)
-- [Download zip file from FTP server and unzip to destination](batch/DownloadFTPandUnzip/DownloadFTPandUnzip.bat)
+- [Hourly_Robocopy_Backup.bat: Setup scheduled task to run hourly incremental backup](batch/HourlyRobocopyBackup/Hourly_Robocopy_Backup.bat)
+- [CopyToFTP.bat: Copy to FTP server](batch/CopyToFTP/CopyToFTP.bat)
+- [DeploySCP.bat: Deployment script using SCP - featuring GoTo spaghetti](batch/DeploySCP/DeploySCP.bat)
+- [DownloadFTPandUnzip.bat: Download zip file from FTP server and unzip to destination](batch/DownloadFTPandUnzip/DownloadFTPandUnzip.bat)
 
 
 **Powershell**
 
-- [List Windows Updates remote](powershell/ListUpdates/ListUpdates.ps1)
-- [Interactive Admin Tools](powershell/InteractiveAdminTools/InteractiveAdminTools.ps1)
+- [ListUpdates.ps1: List Windows Updates from remote computers](powershell/ListUpdates/ListUpdates.ps1)
+- [InteractiveAdminTools.ps1: Some useful IT tools in an interactive shell](powershell/InteractiveAdminTools/InteractiveAdminTools.ps1)
 
 
+**Javascript**
 
+- [Dell.js: Create a browser bookmark and copy+paste the javascript code to the url field. When clicking the bookmark it will show a prompt for typing a Dell service tag, then redirect to Dell website for that machine)](javascript/Dell/Dell.js)
 
 
