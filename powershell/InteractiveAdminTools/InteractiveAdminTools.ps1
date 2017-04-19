@@ -7,7 +7,7 @@
 # output anything the first time, you have to run it twice...
 #
 
-$version = "0.1.0"
+$version = "0.2.0"
 
 $commands = @(
     "eventvwr",
@@ -22,7 +22,8 @@ function showMenu {
 Available commands:
 
 event {host}, lu {host}, trace {host}, 
-ping {host}, st {host}, hw {host}, 
+ping {host}, st {host}, hw {host},
+p {host} {process},
 cls, menu, setup, help, exit
 
 "
@@ -36,6 +37,7 @@ trace `t {host}       `t - Run traceroute (tracert) to host
 ping `t {host}       `t - Ping host
 st `t {host}        `t - Get BIOS Serial Tag from host
 hw `t {host}        `t - Get Hardware info from host
+p `t {host} {process} - List running processes on host or if the specific process is running
 
 cls/clear             `t - Clear screen
 menu                  `t - Show menu
@@ -56,6 +58,7 @@ do {
     $input = $input -split ' '
     $cmd   = $input[0]
     $param = $input[1]
+    $param2= $input[2]
 
     switch ($cmd)
     {
@@ -97,7 +100,18 @@ do {
                 echo " OS: $os"
             }
         }
-        
+        'p' {
+            if($param) {
+                if($param2) {
+                    $p = Get-Process $param2* -computername $param
+                }
+                else {
+                    $p = Get-Process -computername $param
+                    #tasklist /S lt-0085
+                }
+                echo $p
+            }
+        }
 
 
 
