@@ -25,3 +25,7 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 - [Dell.js: Create a browser bookmark and copy+paste the javascript code to the url field. When clicking the bookmark it will show a prompt for typing a Dell service tag, then redirect to Dell website for that machine)](javascript/Dell/Dell.js)
 
 
+**Python**
+
+- [BulkImageRotater.py: CLI script for rotating all supported image types in selected directory by 90 degrees clockwise)](python/BulkImageRotater/BulkImageRotater.py)
+
