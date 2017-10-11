@@ -13,6 +13,7 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 - [DeploySCP.bat: Deployment script using SCP - featuring GoTo spaghetti](batch/DeploySCP/DeploySCP.bat)
 - [DownloadFTPandUnzip.bat: Download zip file from FTP server and unzip to destination](batch/DownloadFTPandUnzip/DownloadFTPandUnzip.bat)
 - [PrintFile.bat: Script for automatically printing a predefined file using Acrobat Reader DC](batch/PrintFile/PrintFile.bat)
+- [SSID.bat: Script for listing available network SSIDs, credit to https://www.reddit.com/r/usefulscripts/comments/5ec5ha/batch_a_script_to_view_the_wireless_ssids_and/](batch/ShowWiFiSSIDs/ssid.bat)
 
 
 **Powershell**
@@ -37,4 +38,3 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 - [sysinfo: Simple bash script to export system info into a html file, inspired by http://linuxcommand.org/index.php](shell/sysinfo/sysinfo)
 
   ​
-
