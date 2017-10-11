@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Inspired by http://linuxcommand.org/
+
 TITLE="System information for $HOSTNAME"
 RIGHT_NOW=$(date +"%x %r %Z")
 TIME_STAMP="Updated on $RIGHT_NOW"
