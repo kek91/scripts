@@ -12,6 +12,7 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 - [CopyToFTP.bat: Copy to FTP server](batch/CopyToFTP/CopyToFTP.bat)
 - [DeploySCP.bat: Deployment script using SCP - featuring GoTo spaghetti](batch/DeploySCP/DeploySCP.bat)
 - [DownloadFTPandUnzip.bat: Download zip file from FTP server and unzip to destination](batch/DownloadFTPandUnzip/DownloadFTPandUnzip.bat)
+- [PrintFile.bat: Script for automatically printing a predefined file using Acrobat Reader DC](batch/PrintFile/PrintFile.bat)
 
 
 **Powershell**
@@ -22,10 +23,18 @@ Pull requests are welcome for bugs/improvements or additional scripts.
 
 **Javascript**
 
-- [Dell.js: Create a browser bookmark and copy+paste the javascript code to the url field. When clicking the bookmark it will show a prompt for typing a Dell service tag, then redirect to Dell website for that machine)](javascript/Dell/Dell.js)
+- [Dell.js: Create a browser bookmark and copy+paste the javascript code to the url field. When clicking the bookmark it will show a prompt for typing a Dell service tag, then redirect to Dell website for that machine](javascript/Dell/Dell.js)
 
 
 **Python**
 
-- [BulkImageRotater.py: CLI script for rotating all supported image types in selected directory by 90 degrees clockwise)](python/BulkImageRotater/BulkImageRotater.py)
+- [BulkImageRotater.py: CLI script for rotating all supported image types in selected directory by 90 degrees clockwise](python/BulkImageRotater/BulkImageRotater.py)
+- [BulkImageFlipMirror.py: CLI script for mirroring all images in directory](python/BulkImageFlipMirror/BulkImageFlipMirror.py)
+
+
+**Bash/Shell**
+
+- [sysinfo: Simple bash script to export system info into a html file, inspired by http://linuxcommand.org/index.php](shell/sysinfo/sysinfo)
+
+  ​
 
